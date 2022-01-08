@@ -1,0 +1,24 @@
+
+.layout {
+    min-height: 100vh;
+    background-image: url('../assets/background1.jpg');
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+}
+.footer{
+    text-align: center;
+    background-color: rgb(255, 255, 255, 0.1);
+    color: white;
+}
+.site-layout-content {
+    margin: 0 50px;
+    background: rgb(255, 255, 255, 0);
+    padding: 10px 30px ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+[data-theme="dark"] .site-layout-content {
+    background: #141414;
+}
